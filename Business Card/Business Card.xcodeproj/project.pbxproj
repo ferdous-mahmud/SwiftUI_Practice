@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C053A78273128F800B44752 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C053A77273128F800B44752 /* InfoView.swift */; };
 		0C7AC2B627302DE500DC9495 /* Business_CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7AC2B527302DE500DC9495 /* Business_CardApp.swift */; };
 		0C7AC2B827302DE500DC9495 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7AC2B727302DE500DC9495 /* ContentView.swift */; };
 		0C7AC2BA27302DE600DC9495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7AC2B927302DE600DC9495 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C053A77273128F800B44752 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		0C7AC2B227302DE500DC9495 /* Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7AC2B527302DE500DC9495 /* Business_CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardApp.swift; sourceTree = "<group>"; };
 		0C7AC2B727302DE500DC9495 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				0C7AC2C3273034C600DC9495 /* Fonts */,
 				0C7AC2B527302DE500DC9495 /* Business_CardApp.swift */,
 				0C7AC2B727302DE500DC9495 /* ContentView.swift */,
+				0C053A77273128F800B44752 /* InfoView.swift */,
 				0C7AC2B927302DE600DC9495 /* Assets.xcassets */,
 				0C7AC2BB27302DE600DC9495 /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C7AC2B827302DE500DC9495 /* ContentView.swift in Sources */,
+				0C053A78273128F800B44752 /* InfoView.swift in Sources */,
 				0C7AC2B627302DE500DC9495 /* Business_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

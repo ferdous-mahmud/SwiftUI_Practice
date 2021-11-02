@@ -21,26 +21,18 @@ struct ContentView: View {
                     .overlay(
                         Circle().stroke(Color.white, lineWidth: 5)
                     )
+                
                 Text("Angela Yu")
                     .font(Font.custom("Pacifico-Regular", size: 50))
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
+                
                 Text("iOS developer")
                     .font(.system(size: 25))
                     .foregroundColor(.white)
                 
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(height: 60, alignment: .center)
-                    .padding()
-                    .foregroundColor(.white)
-                    .overlay(
-                        HStack {
-                            Image(systemName: "phone.fill")
-                                .foregroundColor(.green)
-                            Text("+880 191 188 556")
-                                .font(Font.custom("Pacifico-Regular", size: 30))
-                        }
-                    )
+                InfoView(imageName: "phone.fill", text: "+8801 711 567 423")
+                InfoView(imageName: "envelope.fill", text: "angela@gmail.com")
             }
             
         }
